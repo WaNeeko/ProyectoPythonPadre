@@ -54,8 +54,6 @@ class Producto:
 class Carrito:
   pass
 
-
-
 carrito = {
   "teNegro": Producto(Verificar.rangoDePrecios(int(input("TN precio: "))), putNum("TN cantidad: ")),
   "teVerde": Producto(Verificar.rangoDePrecios(int(input("TV precio: "))), putNum("TV cantidad: ")),
